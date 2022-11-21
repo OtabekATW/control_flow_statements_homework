@@ -12,9 +12,7 @@ def main(a):
 
     if a < 0:
         a -= 2
-        return a
 
     if a == 0:
         a = 10
-        return a
-    return a
+    return a + 1
