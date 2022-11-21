@@ -13,5 +13,3 @@ def main(a):
     if a == 0:
         a = 10
     return a
-
-print(main(int(input())))
