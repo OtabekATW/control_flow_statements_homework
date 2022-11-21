@@ -25,9 +25,9 @@ def main(a,b,c):
         s += 1
 
     if s > 1:
-        d = 'there are a lot of positive numbers')
+        d = 'there are a lot of positive numbers'
 
     if s < 0:
-        e = 'there are a lot of negative numbers')    
+        d = 'there are a lot of negative numbers'   
 
-    return s
+    return d
