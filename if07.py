@@ -13,16 +13,16 @@ def main(a):
         string: the message to print
     """
     
-    if a > 0 and a % 2 = 1:
+    if a > 0 and a % 2 == 1:
         s = 'positive odd number'
 
-    if a > 0 and a % 2 = 0:
+    if a > 0 and a % 2 == 0:
         s = 'positive even number'
 
-    if a < 0 and a % 2 = 1:
+    if a < 0 and a % 2 == 1:
         s = 'negative odd number'
 
-    if a < 0 and a % 2 = 0:
+    if a < 0 and a % 2 == 0:
         s = 'negative even number'
 
     if a == 0:
