@@ -12,12 +12,11 @@ def main(a,b,c):
 
     if a > 0:
         s += 1
-        return s
+
     if b > 0:
         s += 1
-        return s
+
     if c > 0:
         s += 1
-        return s
 
     return s
