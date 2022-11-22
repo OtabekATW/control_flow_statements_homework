@@ -16,7 +16,7 @@ def main(a):
 
     if y <= a:
         s = True 
-    if y >= a:
+    if y > a:
         s = False
 
     return s
