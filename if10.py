@@ -13,7 +13,7 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    if temp < 0:
+    if temp <= 0:
         s = 'Freezing'
 
     if temp >= 1 and temp <= 10:
@@ -32,4 +32,3 @@ def main(temp):
         s = 'Very Hot' 
 
     return s
-print(main(int(input())))
